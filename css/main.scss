@@ -270,6 +270,14 @@ body {
     }
 }
 
+.img-scale {
+    transition: all .3s;
+}
+
+.img-scale:hover {
+    transform: scale(105%)
+}
+
 .product__list {
     margin-bottom: 46px;
     display: flex;
