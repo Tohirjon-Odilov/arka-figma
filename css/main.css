@@ -163,6 +163,22 @@ body {
   color: #011F3A;
 }
 
+.btn-white,
+.btn-black {
+  -webkit-transition: all .3s;
+  transition: all .3s;
+}
+
+.btn-white:hover {
+  background: #3D5675;
+  color: #fff;
+}
+
+.btn-black:hover {
+  background: #fff;
+  color: #3D5675;
+}
+
 .site-main {
   background: #EEEEEE;
 }
@@ -223,6 +239,10 @@ body {
   letter-spacing: 1.96px;
   text-transform: uppercase;
   color: #FFFFFF;
+}
+
+.logotip-section {
+  background-color: #fff;
 }
 
 .logotip__list {
@@ -563,7 +583,7 @@ body {
 }
 
 .help-section .help .help__list .help__item a:hover {
-  background-color: crimson;
+  background-color: #3D5675;
   color: #FFFFFF;
 }
 /*# sourceMappingURL=main.css.map */

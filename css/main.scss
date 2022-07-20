@@ -20,7 +20,8 @@
     align-items: center;
 }
 
-$red: crimson;
+$black: #3D5675;
+$white: #fff;
 * {
     margin: 0;
     padding: 0;
@@ -140,6 +141,22 @@ body {
     }
 }
 
+.btn-white,
+.btn-black {
+    transition: all .3s;
+}
+
+.btn-white:hover {
+    background: $black;
+    color: $white;
+}
+
+.btn-black:hover {
+    background: $white;
+    color: $black;
+}
+
+// site-main
 .site-main {
     background: #EEEEEE;
 }
@@ -196,6 +213,10 @@ body {
 }
 
 // section logotip
+.logotip-section {
+    background-color: #fff;
+}
+
 .logotip__list {
     padding: 20px 0;
     @include flex(space-between);
@@ -462,7 +483,7 @@ body {
                     color: #3D5675;
                     transition: all .3s;
                     &:hover {
-                        background-color: $red;
+                        background-color: $black;
                         color: #FFFFFF;
                     }
                 }
