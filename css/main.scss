@@ -64,6 +64,23 @@ body {
     color: #011F3A;
 }
 
+.header__item {
+    position: relative;
+}
+
+.header__item:first-child:before {
+    content: "";
+    width: 15px;
+    height: 15px;
+    position: absolute;
+    left: -25px;
+    top: 2px;
+    background-image: url("../img/star.svg");
+    background-repeat: no-repeat;
+    background-size: auto;
+    // background-position: 5px 5px;
+}
+
 .shop__wrapper {
     width: 130px;
     @include flex(space-between);
